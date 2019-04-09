@@ -31,7 +31,7 @@ class maxheap {
 	float(stat)->string(playername) this will make the heap multifunctional rather than us needing to make 5+ maxheaps that can deal
 	with different stats individually).
 	*/
-}
+};
 
 class percentile_scoring {
 	private:
@@ -45,6 +45,6 @@ class percentile_scoring {
 		percentile_scoring(int); /*Not sure exactly what to do here but the int can refer which stat we want to organize
 		we will then have the program load all players into the heap and then pop them into the stat_array we probably need to 
 		make some way of keep track of all players to make this process easier.*/
-}
+};
 
 //http://www.espn.com/mens-college-basketball/team/stats/_/id/2006
